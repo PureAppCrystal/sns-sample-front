@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import KakaoLogin from './components/KakaoLogin';
+import KakaoLogout from './components/KakaoLogout';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <KakaoLogin/>
+        <KakaoLogout/>
+        
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const { Kakao } = window;
+
+Kakao.init("321cc4fe8aeec7700795d7cd8bc41ea8")
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
